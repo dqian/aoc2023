@@ -1,5 +1,7 @@
 import colors from 'colors'
 
+export const parseInput = (input) => input.split('\n')
+
 export default async (year, day, solutionsPromise, inputsPromise) => {
   // @TODO: Fix this jank
   const { part1, part2 } = await solutionsPromise
